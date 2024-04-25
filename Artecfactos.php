@@ -262,20 +262,21 @@
                             </li>
 
                             <li>
-                                <a href="Artecfactos.php" class="has-arrow waves-effect"><i
+                                <a href="Artecfactos.html" class="has-arrow waves-effect"><i
                                         class="mdi mdi-diamond-stone"></i><span>Producto</span></a>
+                                
                             </li>
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                                         class="mdi mdi-table-merge-cells"></i><span>Clientes</span></a>
-                                
+                               
                             </li>
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                                         class="mdi mdi-poll"></i><span>Ventas</span></a>
-                                
+                               
                             </li>
 
                             <li>
@@ -359,32 +360,21 @@
                         <!-- end page title -->
 
                     </div> <!-- container-fluid -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="img/Equipo.jpg" class="d-block w-100" alt="...">
+                     <div>
+                        <div class="page-title-box d-flex align-items-center justify-content-between">
+                        <div class="container-fluid row">
+                            <?php for ($i=0; $i < 10; $i++){
+                                ?>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/Equipo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Licuadura</p>
+                            </div>
+                           
                           </div>
-                          <div class="carousel-item">
-                            <img src="img/leguadura.avif" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/Ollas.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </button>
-                      </div>
+                          <?php } ?>
+                         
+                </div>
                 </div>
                 <!-- End Page-content -->
 
