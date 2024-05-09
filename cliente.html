@@ -268,7 +268,7 @@
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
+                                <a href="cliente.html" class="has-arrow waves-effect"><i
                                         class="mdi mdi-table-merge-cells"></i><span>Clientes</span></a>
                                
                             </li>
@@ -361,21 +361,40 @@
 
                     </div> <!-- container-fluid -->
                      <div>
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                        <div class="container-fluid row">
-                            <?php for ($i=0; $i < 10; $i++){
-                                ?>
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/Equipo.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                             <center><p class="card-text">Licuadura</p></center>
-                            </div>
-                        
-                          </div>
-                          <?php } ?>
-                         
-                </div>
-                </div>
+                        <h2>Registro de Cliente</h2>
+    <form action="procesar_registro.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Juan" required><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" value="Pérez Gómez" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="juan@example.com" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" value="123456789"><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion" rows="4" cols="50" required>Av. Principal #123</textarea><br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" value="Ciudad de Ayacucho" required><br><br>
+
+        <label for="codigo_postal">Código Postal:</label>
+        <input type="text" id="codigo_postal" name="codigo_postal" value="05121" required><br><br>
+
+        <label for="pais">Perú:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Seleccionar Ciudad</option>
+            <option value="españa">Huanta</option>
+            <option value="mexico" selected>Ayacucho</option>
+            <option value="argentina">Lima</option>
+            <!-- Añade más opciones según sea necesario -->
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
                 <!-- End Page-content -->
 
                 <footer class="footer">
