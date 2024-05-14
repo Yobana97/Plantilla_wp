@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="utf-8" />
-        <title> Online</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="MyraStudio" name="author" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-        <!-- App css -->
-        <link href="plantilla/Admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-
-    </head>
-
-    <body>
-
-        <!-- Begin page -->
-        <div id="layout-wrapper">
-            <div class="header-border"></div>
-            <header id="page-topbar">
+<header id="page-topbar">
                 <div class="navbar-header">
 
                     <div class="d-flex align-items-left">
@@ -268,7 +242,7 @@
                             </li>
 
                             <li>
-                                <a href="cliente.html" class="has-arrow waves-effect"><i
+                                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                                         class="mdi mdi-table-merge-cells"></i><span>Clientes</span></a>
                                
                             </li>
@@ -332,106 +306,3 @@
                 </div>
             </div>
             <!-- Left Sidebar End -->
-
-            <!-- ============================================================== -->
-            <!-- Start right Content here -->
-            <!-- ============================================================== -->
-            <div class="main-content">
-
-                <div class="page-content">
-                    <div class="container-fluid">
-
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0 font-size-18">Inicio</h4>
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pígina</a></li>
-                                            <li class="breadcrumb-item active">Arrancadora</li>
-                                        </ol>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end page title -->
-
-                    </div> <!-- container-fluid -->
-                     <div>
-                        <h2>Registro de Cliente</h2>
-    <form action="procesar_registro.php" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" value="Juan" required><br><br>
-
-        <label for="apellidos">Apellidos:</label>
-        <input type="text" id="apellidos" name="apellidos" value="Pérez Gómez" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" value="juan@example.com" required><br><br>
-
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" value="123456789"><br><br>
-
-        <label for="direccion">Dirección:</label>
-        <textarea id="direccion" name="direccion" rows="4" cols="50" required>Av. Principal #123</textarea><br><br>
-
-        <label for="ciudad">Ciudad:</label>
-        <input type="text" id="ciudad" name="ciudad" value="Ciudad de Ayacucho" required><br><br>
-
-        <label for="codigo_postal">Código Postal:</label>
-        <input type="text" id="codigo_postal" name="codigo_postal" value="05121" required><br><br>
-
-        <label for="pais">Perú:</label>
-        <select id="pais" name="pais" required>
-            <option value="">Seleccionar Ciudad</option>
-            <option value="españa">Huanta</option>
-            <option value="mexico" selected>Ayacucho</option>
-            <option value="argentina">Lima</option>
-            <!-- Añade más opciones según sea necesario -->
-        </select><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
-                <!-- End Page-content -->
-
-                <footer class="footer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                2024 © Tienda Online.
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="text-sm-right d-none d-sm-block">
-                                    Design & Develop by Myra
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-            </div>
-            <!-- end main content-->
-
-        </div>
-        <!-- END layout-wrapper -->
-
-        <!-- Overlay-->
-        <div class="menu-overlay"></div>
-
-
-        <!-- jQuery  -->
-        <script src="plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
-        <script src="plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
-        <script src="plantilla/Admin/vertical/assets/js/waves.js"></script>
-        <script src="plantilla/Admin/vertical/assets/js/simplebar.min.js"></script>
-
-        <!-- App js -->
-        <script src="plantilla/Admin/vertical/assets/js/theme.js"></script>
-
-    </body>
-
-</html>
