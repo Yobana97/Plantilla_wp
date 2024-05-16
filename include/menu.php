@@ -231,12 +231,12 @@
                             <li class="menu-title">Menu</li>
 
                             <li>
-                                <a href="index.html" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
+                                <a href="index.php" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
                                         class="badge badge-pill badge-primary float-right">7</span><span>Inicio</span></a>
                             </li>
 
                             <li>
-                                <a href="Artecfactos.html" class="has-arrow waves-effect"><i
+                                <a href="Artecfactos.php" class="has-arrow waves-effect"><i
                                         class="mdi mdi-diamond-stone"></i><span>Producto</span></a>
                                 
                             </li>
@@ -265,6 +265,26 @@
                                         class="mdi mdi-black-mesa"></i><span>Configuración</span></a>
                                 
                             </li>
+
+                            <li><a href="nosotros.php" class=" waves-effect"><i
+                                        class="mdi mdi-calendar-range-outline"></i><span>NOSOTROS</span></a></li>
+
+                            <li>
+                        
+                            <li><a href="productos.php" class=" waves-effect"><i
+                                        class="mdi mdi-calendar-range-outline"></i><span>Productos</span></a></li>
+
+                            <li>
+
+                            <li><a href="productos.php" class=" waves-effect"><i
+                                        class="mdi mdi-calendar-range-outline"></i><span>Facturas</span></a></li>
+
+                            <li>
+                            <li><a href="productos.php" class=" waves-effect"><i
+                                        class="mdi mdi-calendar-range-outline"></i><span>Precio></a></li>
+
+                            <li>
+
 
                             <li class="menu-title">Más</li>
 
